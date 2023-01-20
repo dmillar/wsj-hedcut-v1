@@ -22,3 +22,11 @@ prompt = "wsj hedcut of a woman"
 image = pipe(prompt).images[0]
 image.save("./woman_hedcut.png")
 ```
+
+## Sample Images
+![Hepburn](https://huggingface.co/dmillar/wsj-hedcut-v1/resolve/main/hepburn.png)
+![Mbappe](https://huggingface.co/dmillar/wsj-hedcut-v1/resolve/main/mbappe.png)
+![Hanks](https://huggingface.co/dmillar/wsj-hedcut-v1/resolve/main/hanks.png)
+![Dog](https://huggingface.co/dmillar/wsj-hedcut-v1/resolve/main/dog.png)
+![Cat](https://huggingface.co/dmillar/wsj-hedcut-v1/resolve/main/cat.png)
+
