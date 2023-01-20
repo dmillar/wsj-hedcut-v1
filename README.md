@@ -1,7 +1,9 @@
 ---
-license: cc-by-4.0
+license: creativeml-openrail-m
 tags:
-- text-to-image
-- stable-diffusion
+  - stable-diffusion
+  - stable-diffusion-diffusers
+  - text-to-image
+inference: true
 ---
 
