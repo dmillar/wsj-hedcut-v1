@@ -9,6 +9,8 @@ inference: true
 ### Wall Street Journal Hedcut Style for Stable Diffusion
 Readers of the Wall Street Journal (WSJ) are familiar with the distinctive style used to create portaits of their writers and subjects&mdash;called hedcuts. This is a fine-tuned stable diffusion model that can be used to create hedcut-styled images using the prompt **_wsj hedcut of \<subject\>_**. This model can also be used in a [DreamBooth](https://github.com/huggingface/diffusers/tree/main/examples/dreambooth) environment to further train a face or other subject for personalized, realistic hedcuts.
 
+For the full checkpoint file, see the Hugging Face repository: (https://huggingface.co/dmillar/wsj-hedcut-v1)
+
 ```python
 #!pip install diffusers transformers scipy torch
 from diffusers import StableDiffusionPipeline
